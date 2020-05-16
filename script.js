@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
 
 $('.slider').ripples({
   dropRadius:10,
-  perturbance: 0.1,
+  perturbance: 0.05,
   
 });
 });
