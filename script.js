@@ -23,3 +23,4 @@ function frameLooper()
   loopTimer = setTimeout('frameLooper()',130);
 }
 frameLooper();
+
