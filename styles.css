@@ -9,7 +9,10 @@
     height: 200px;
 }*/
 body{
-	background-image:linear-gradient(to left,#000428,#004e92);
+	/*background-image:linear-gradient(to left,#000428,#004e92);*/
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 *{
     margin:0;
