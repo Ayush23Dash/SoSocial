@@ -10,7 +10,7 @@
 }*/
 body{
 	/*background-image:linear-gradient(to left,#000428,#004e92);*/
-	background-image: url(bg.jpg);
+	background-image: url(bg-min.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
