@@ -1,4 +1,4 @@
-img{
+/*img{
 	  margin-left: auto;
   margin-right: auto;
   display: block;
@@ -7,4 +7,31 @@ img{
     background-position: center;
     width: 200px;
     height: 200px;
+}*/
+
+.moveMe
+{
+	  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 50px;
+  border:none;
+    background-position: center;
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
+}
+
+.moveMe:hover
+{
+    top: 10%;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
 }
