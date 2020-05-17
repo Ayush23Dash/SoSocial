@@ -33,8 +33,8 @@ frameLooper();
  // }
  jQuery(function($) {
     $('#move').mouseover(function() {
-        var dWidth = $(document).width() - 100, // 100 = image width
-            dHeight = $(document).height() - 100, // 100 = image height
+        var dWidth = $(document).width() - 20, // 100 = image width
+            dHeight = $(document).height() - 20, // 100 = image height
             nextX = Math.floor(Math.random() * dWidth),
             nextY = Math.floor(Math.random() * dHeight);
             let dH = $(document).height();
