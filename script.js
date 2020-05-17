@@ -1,12 +1,14 @@
-jQuery(document).ready(function(){
-"use strict"
 
-$('.slider').ripples({
-  dropRadius:10,
-  perturbance: 0.05,
+//Ripple Effect
+// jQuery(document).ready(function(){
+// "use strict"
+
+// $('.slider').ripples({
+//   dropRadius:10,
+//   perturbance: 0.05,
   
-});
-});
+// });
+// });
 
 var myText = "Launching Soon ...";
 var myArray = myText.split("");
