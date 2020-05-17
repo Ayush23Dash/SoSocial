@@ -37,6 +37,17 @@ frameLooper();
             dHeight = $(document).height() - 100, // 100 = image height
             nextX = Math.floor(Math.random() * dWidth),
             nextY = Math.floor(Math.random() * dHeight);
+            let dH = $(document).height();
+            console.log(nextX);
+            if(nextY > 250){
+            	nextY = 200;
+            	// console.log("h");
+            }
+            if(nextX > 1000){
+            	nextX = 1000;
+            	console.log("j")
+            }
+            // console.log($(document).height())
         $(this).animate({ left: nextX + 'px', top: nextY + 'px' });
     });
 });
