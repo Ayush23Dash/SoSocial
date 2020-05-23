@@ -82,3 +82,10 @@ body{
 	color: #fff;
 	font-family: arial,sans-serif;
 }
+
+.contact{
+  position: absolute;
+  bottom: 2%;
+  left:50%;
+
+}
