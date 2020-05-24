@@ -1,0 +1,49 @@
+/* SCROLL BAR START */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DB5D66;
+}
+
+/* SCROLL BAR END */
+body{
+	background-color:black;
+}
+.blog{
+	width: 80%;
+	margin:auto;
+	color: #fff;
+}
+hr{
+	background-color: #DB5D66;
+}
+
+.contact{
+ position: relative;
+ height: 50px;
+}
+@media only screen and (min-width: 992px) {
+.button{
+	position: absolute;
+	left:45%;
+}
+}
+@media only screen and (max-width: 992px) {
+	.button{
+	position: absolute;
+	left:25%;
+}
+}

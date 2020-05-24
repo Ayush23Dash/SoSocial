@@ -1,0 +1,56 @@
+body{
+	background-color: black;
+	overflow: hidden;
+	
+}
+h1{
+	font-family: 'Orbitron', sans-serif;
+}
+.box{
+	background-color: white;
+	width: 80%;
+	margin:auto;
+	background-image: url(../bg-min.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	  display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+.box ul{
+	 flex-grow: 1;
+        flex-basis: 1px;
+}
+ul{
+	list-style-type: none;
+}
+.contact{
+ position: relative;
+ height: 50px;
+}
+
+@media only screen and (min-width: 992px) {
+ul>li{
+	padding: 18px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: yellow;
+}
+.button{
+	position: absolute;
+	left:45%;
+}
+}
+@media only screen and (max-width: 992px) {
+ul>li{
+	padding: 15px;
+	font-family: 'Pacifico', cursive;
+	font-size: 16px;
+}
+	.button{
+	position: absolute;
+	left:25%;
+}
+}
+
