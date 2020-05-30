@@ -51,3 +51,63 @@ frameLooper();
         $(this).animate({ left: nextX + 'px', top: nextY + 'px' });
     });
 });
+
+ let a = document.getElementById("A");
+ let b = document.getElementById("B");
+ let c = document.getElementById("C");
+ let d = document.getElementById("D");
+ let e = document.getElementById("E");
+ let f = document.getElementById("F");
+function A()  {
+ a.style.display = "block";
+ b.style.display = "none";
+ c.style.display = "none";
+ d.style.display = "none";
+ e.style.display = "none";
+ f.style.display = "none";
+};
+
+function B()  {
+ a.style.display = "none";
+ b.style.display = "block";
+ c.style.display = "none";
+ d.style.display = "none";
+ e.style.display = "none";
+ f.style.display = "none";
+};
+
+function C()  {
+ a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "block";
+ d.style.display = "none";
+ e.style.display = "none";
+ f.style.display = "none";
+};
+
+function D(){
+ a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "none";
+ d.style.display = "block";
+ e.style.display = "none";
+ f.style.display = "none";
+}
+
+function E() {
+ a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "none";
+ d.style.display = "none";
+ e.style.display = "block";
+ f.style.display = "none";
+}
+
+function F() {
+ a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "none";
+ d.style.display = "none";
+ e.style.display = "none";
+ f.style.display = "block";
+}
