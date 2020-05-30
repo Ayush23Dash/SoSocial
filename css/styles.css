@@ -19,24 +19,16 @@
 }
 
 /* SCROLL BAR END */
-/*img{
-    margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 50px;
-  border:none;
-    background-position: center;
-    width: 200px;
-    height: 200px;
-}*/
-
+html{
+  scroll-behavior: smooth;
+}
 }
 *{
     margin:0;
     padding: 0;
   }
   .slider{
-      background-image: url(../bg-min.jpg);
+  background-image: url(../bg-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
     /*background-image: url(logo1.png);
@@ -70,8 +62,8 @@
   padding-top: 50px;
   border:none;
     background-position: center;
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     position: absolute;
     top: 20%;
     left:30%;
