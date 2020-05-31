@@ -95,12 +95,20 @@ html{
   font-family: arial,sans-serif;
 }
 
+@media only screen and (min-width: 992px){
 .contact{
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
   left:50%;
 }
-
+}
+@media only screen and  (max-width: 992px){
+.contact{
+  position: absolute;
+  bottom: 1%;
+  left:50%;
+}
+}
 /*BLOG SECTION*/
 .blog-section{
   background-color:black;
