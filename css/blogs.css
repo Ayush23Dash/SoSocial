@@ -1,0 +1,41 @@
+/* SCROLL BAR START */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DB5D66;
+}
+
+/* SCROLL BAR END */
+html{
+  scroll-behavior: smooth;
+}
+body{
+	background-color: black;
+}
+h1{
+	text-align: center;
+	color: #DB5D66;
+}
+hr{
+	background-color: #DB5D66;
+	width: 80%;
+}
+p{
+	color: #fff;
+	width: 80%;
+	margin:auto;
+	text-align: center;
+}
