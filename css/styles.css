@@ -175,10 +175,7 @@ hr{
   transition: .5s ease;
 }
 
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
+
 
 .text {
   color: white;
@@ -191,15 +188,7 @@ hr{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.container {
-  position: relative;
-   background-image: url(http://www.mikiyakobayashi.com/projects/furniture/bo_9205w.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  margin-bottom: 20px;
-  /*width: 50%;*/
-}
+
 
 /*@media only screen and (max-width:512px){
   .text{
@@ -210,3 +199,42 @@ hr{
     content: "Click Me";
   }
 }*/
+#bHeading{
+  text-align: center;
+  padding: auto;
+  margin:auto;
+}
+@media only screen and (min-width:1200px){
+  #bHeading{
+    display: none;
+  }
+  .container {
+  position: relative;
+   background-image: url(http://www.mikiyakobayashi.com/projects/furniture/bo_9205w.jpg);
+  background-size: cover;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 300px;
+}
+}
+@media only screen and (max-width:1200px){
+.container {
+  position: relative;
+   background-image: url(http://www.mikiyakobayashi.com/projects/furniture/bo_9205w.jpg);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+}
