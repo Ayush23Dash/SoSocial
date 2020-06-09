@@ -40,3 +40,8 @@ p{
 	text-align: center;
 	font-size: 150%;
 }
+@media only screen and (max-width: 512px){
+	p{
+		font-size: 100%;
+	}
+}
