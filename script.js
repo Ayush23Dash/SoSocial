@@ -10,7 +10,7 @@
 // });
 // });
 
-var myText = "MAY JUNE 2020";
+var myText = "JULY 2020";
 var myArray = myText.split("");
 var loopTimer;
 function frameLooper()
